@@ -1,0 +1,26 @@
+.input-container {
+    margin-left: 2px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .text-input {
+   height: 20px;
+  
+    background-color: aliceblue;
+    border: 1px solid #fffefe;
+    border-radius: 5px;
+    animation: blink 2s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 50%, 100% {
+      border-color: #ffffff;
+      background-color: transparent;
+    }
+    25%, 75% {
+      border-color: transparent;
+    }
+  }
